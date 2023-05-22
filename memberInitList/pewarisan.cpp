@@ -4,12 +4,12 @@ using namespace std;
 
 class orang {
 public:
-	string nama;
+	string nama; 
 
-	orang(string pNama);
+	orang(string pNama):
 	nama(pNama) {
 		cout << "orang dibuat\n" << endl;
-	}
+	} 
 	~orang() {
 		cout << "orang dihapus\n" << endl;
 	}
